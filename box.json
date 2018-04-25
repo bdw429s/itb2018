@@ -1,0 +1,36 @@
+{
+    "name":"itb2018",
+    "version":"0.0.0",
+    "author":"",
+    "location":"bdw429s/itb2018#v0.0.0",
+    "homepage":"https://github.com/bdw429s/itb2018",
+    "documentation":"https://github.com/bdw429s/itb2018",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/bdw429s/itb2018"
+    },
+    "bugs":"https://github.com/bdw429s/itb2018/issues",
+    "slug":"itb2018",
+    "shortDescription":"my test module",
+    "description":"my test module",
+    "type":"modules",
+    "dependencies":{},
+    "devDependencies":{
+        "coldbox":"^4.3.0+188",
+        "testbox":"^2.4.0+80"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+        "coldbox":"tests/resources/app/coldbox"
+    },
+    "scripts":{
+        "postVersion":"package set location='bdw429s/itb2018#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push && !git push --tags"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
