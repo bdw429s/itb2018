@@ -13,7 +13,7 @@
     "slug":"itb2018",
     "shortDescription":"my test module",
     "description":"my test module",
-    "type":"modules",
+    "type":"commandbox-modules",
     "dependencies":{},
     "devDependencies":{
         "coldbox":"^4.3.0+188",

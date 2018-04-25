@@ -7,4 +7,9 @@ component {
     function configure() {
         //
     }
+
+    function onCLIStart() {
+        systemOutput( 'CLI STARTING', 1 );
+    }
+
 }
